@@ -46,3 +46,8 @@ $('#trigger').click(() => $('#trigger').createModal({
         ]
     }
 }));
+
+
+// Get request
+$().get('https://jsonplaceholder.typicode.com/todos/1')
+    .then(res => console.log(res));
